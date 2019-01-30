@@ -1,6 +1,8 @@
-function cariPelaku(str){
-    var abc=str.match(/abc/g)
-    var jumlahAbc=abc.length
+function cariPelaku(str) {
+
+    var abc = str.match(/abc/g)
+    var jumlahAbc = abc.length
+    
     return jumlahAbc
 }
 
